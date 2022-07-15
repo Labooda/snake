@@ -1,0 +1,32 @@
+body {
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  width: 600px;
+  height: 600px;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(30, 1fr);
+  grid-gap: 2.4px;
+}
+
+.cell {
+  background-color: antiquewhite;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red !important;
+}
+
+.brown {
+  background-color: brown;
+}
